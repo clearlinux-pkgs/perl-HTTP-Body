@@ -1,0 +1,5 @@
+1.22
+perl(HTTP::Headers)
+perl(HTTP::Request::Common)
+perl(Test::Deep)
+perl(URI)
