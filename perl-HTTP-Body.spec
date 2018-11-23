@@ -84,12 +84,12 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/HTTP/Body.pm
-/usr/lib/perl5/vendor_perl/5.26.1/HTTP/Body/MultiPart.pm
-/usr/lib/perl5/vendor_perl/5.26.1/HTTP/Body/OctetStream.pm
-/usr/lib/perl5/vendor_perl/5.26.1/HTTP/Body/UrlEncoded.pm
-/usr/lib/perl5/vendor_perl/5.26.1/HTTP/Body/XForms.pm
-/usr/lib/perl5/vendor_perl/5.26.1/HTTP/Body/XFormsMultipart.pm
+/usr/lib/perl5/vendor_perl/5.28.0/HTTP/Body.pm
+/usr/lib/perl5/vendor_perl/5.28.0/HTTP/Body/MultiPart.pm
+/usr/lib/perl5/vendor_perl/5.28.0/HTTP/Body/OctetStream.pm
+/usr/lib/perl5/vendor_perl/5.28.0/HTTP/Body/UrlEncoded.pm
+/usr/lib/perl5/vendor_perl/5.28.0/HTTP/Body/XForms.pm
+/usr/lib/perl5/vendor_perl/5.28.0/HTTP/Body/XFormsMultipart.pm
 
 %files dev
 %defattr(-,root,root,-)
