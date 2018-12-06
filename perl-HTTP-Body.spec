@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Body
 Version  : 1.22
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhttp-body-perl/libhttp-body-perl_1.22-1.debian.tar.xz
@@ -45,7 +45,7 @@ license components for the perl-HTTP-Body package.
 cd ..
 %setup -q -T -D -n HTTP-Body-1.22 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/HTTP-Body-1.22/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/HTTP-Body-1.22/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
