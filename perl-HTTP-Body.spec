@@ -4,11 +4,11 @@
 #
 Name     : perl-HTTP-Body
 Version  : 1.22
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhttp-body-perl/libhttp-body-perl_1.22-1.debian.tar.xz
-Summary  : 'HTTP Body Parser'
+Summary  : HTTP Body Parser
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-HTTP-Body-license = %{version}-%{release}
@@ -27,6 +27,7 @@ HTTP Body Parser
 Summary: dev components for the perl-HTTP-Body package.
 Group: Development
 Provides: perl-HTTP-Body-devel = %{version}-%{release}
+Requires: perl-HTTP-Body = %{version}-%{release}
 
 %description dev
 dev components for the perl-HTTP-Body package.
