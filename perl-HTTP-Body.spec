@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Body
 Version  : 1.22
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhttp-body-perl/libhttp-body-perl_1.22-1.debian.tar.xz
@@ -83,7 +83,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-HTTP-Body
 cp %{_builddir}/HTTP-Body-1.22/LICENSE %{buildroot}/usr/share/package-licenses/perl-HTTP-Body/59ec7e50aad9b9538fe0c2aed9288bfe38ef1daa
-cp %{_builddir}/HTTP-Body-1.22/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-HTTP-Body/1c3f4fa479eaf72635d92c9a5cd3d8ee120926ea
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-HTTP-Body/1c3f4fa479eaf72635d92c9a5cd3d8ee120926ea
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -113,9 +113,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/HTTP/Body.pm
-/usr/lib/perl5/vendor_perl/5.30.1/HTTP/Body/MultiPart.pm
-/usr/lib/perl5/vendor_perl/5.30.1/HTTP/Body/OctetStream.pm
-/usr/lib/perl5/vendor_perl/5.30.1/HTTP/Body/UrlEncoded.pm
-/usr/lib/perl5/vendor_perl/5.30.1/HTTP/Body/XForms.pm
-/usr/lib/perl5/vendor_perl/5.30.1/HTTP/Body/XFormsMultipart.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTTP/Body.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTTP/Body/MultiPart.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTTP/Body/OctetStream.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTTP/Body/UrlEncoded.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTTP/Body/XForms.pm
+/usr/lib/perl5/vendor_perl/5.30.2/HTTP/Body/XFormsMultipart.pm
