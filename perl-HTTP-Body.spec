@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Body
 Version  : 1.22
-Release  : 24
+Release  : 25
 URL      : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.22.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libh/libhttp-body-perl/libhttp-body-perl_1.22-1.debian.tar.xz
@@ -113,9 +113,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Body.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Body/MultiPart.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Body/OctetStream.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Body/UrlEncoded.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Body/XForms.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Body/XFormsMultipart.pm
+/usr/lib/perl5/*
