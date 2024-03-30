@@ -1,4 +1,4 @@
-1.22
+1.23
 perl(HTTP::Headers)
 perl(HTTP::Request::Common)
 perl(Test::Deep)
