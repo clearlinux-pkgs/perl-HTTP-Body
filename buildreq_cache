@@ -1,4 +1,5 @@
 1.23
+perl(Digest::MD5)
 perl(HTTP::Headers)
 perl(HTTP::Request::Common)
 perl(Test::Deep)
