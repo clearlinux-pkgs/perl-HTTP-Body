@@ -7,7 +7,7 @@
 #
 Name     : perl-HTTP-Body
 Version  : 1.23
-Release  : 36
+Release  : 37
 URL      : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.23.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GE/GETTY/HTTP-Body-1.23.tar.gz
 Summary  : 'HTTP Body Parser'
